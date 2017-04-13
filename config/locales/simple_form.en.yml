@@ -13,7 +13,7 @@ en:
     labels:
       defaults:
         avatar: Avatar
-        confirm_new_password: Confirm new password
+        confirm_new_password: Confirm new password ('e' is ok)
         confirm_password: Confirm password
         current_password: Current password
         data: Data
@@ -22,7 +22,7 @@ en:
         header: Header
         locale: Language
         locked: Make account private
-        new_password: New password
+        new_password: New password ('e' is ok)
         note: Bio
         otp_attempt: Two-factor code
         password: Password (non-'e' letters are fine)
