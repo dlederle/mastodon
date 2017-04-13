@@ -7,21 +7,23 @@
 # For more information, see docs/Running-Mastodon/Administration-guide.md
 #
 defaults: &defaults
-  site_title: 'Mastodon'
-  site_description: ''
-  site_extended_description: ''
-  site_contact_username: ''
-  site_contact_email: ''
+  site_title: '🐬 Town'
+  site_description: 'Eeeee! EEEEE, eeeeee!'
+  site_extended_description: |
+    <p>dolphin.town is a Mastodon instance where you can only say the letter e. <a href="https://oulipo.social">Some instances</a> exist that do not allow this letter. This is not helpful if you are a dolphin.</p>
+    <p>Therefore, <a href="https://tinysubversions.com">Darius Kazemi</a> created this instance for all your dolphin-posting needs.</p>
+  site_contact_username: 'e'
+  site_contact_email: 'dolphintown@feeltrain.com'
   open_registrations: true
-  closed_registrations_message: ''
-  boost_modal: false
+  closed_registrations_message: 'This instance is not accepting registrations at this time. EEEEE.'
+  boost_modal: true
   notification_emails:
     follow: false
     reblog: false
     favourite: false
     mention: false
-    follow_request: true
-    digest: true
+    follow_request: false
+    digest: false
   interactions:
     must_be_follower: false
     must_be_following: false
